@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>ATM</title>
+  </head>
+  <body>
+    <div class="header" id="header">
+      <h1>ATM</h1>
+    </div>
+    <div class="main-wrapper" id="mainWrapper">
+      <input id="firstName" type="text" placeholder="First Name" />
+      <input id="pin" type="text" placeholder="Pin" />
+      <button class="login-btn" id="loginBtn">
+        Click here to sign in to your account
+      </button>
+    </div>
+    <div class="options" id="options">
+      <h2>Please choose from the options below</h2>
+      <button id="deposit">Deposit</button>
+      <button id="withdraw">Withdraw</button>
+      <button id="viewBalance">View balance</button>
+      <button id="quit">Quit</button>
+    </div>
+    <div id="responses">
+      <h3 id="atmResponse"></h3>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
