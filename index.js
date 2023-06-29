@@ -42,7 +42,6 @@ function atm(first, pin) {
   for (const i in usersArr) {
     if (usersArr[i].userName === first && usersArr[i].pin === pin) {
       currentUser = usersArr[i];
-      console.log(currentUser);
       mainWrapper.style.display = "none";
       options.style.display = "block";
     }
